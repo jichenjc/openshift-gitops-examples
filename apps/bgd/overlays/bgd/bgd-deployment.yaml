@@ -19,7 +19,7 @@ spec:
         app: bgd
     spec:
       containers:
-      - image: docker.io/jichenjc/sushiweb-x86:latest
+      - image: docker.io/jichenjc/sushiweb-x86:v1
         name: bgd
         env:
         - name: COLOR

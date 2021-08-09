@@ -7,10 +7,12 @@ metadata:
   name: bgd
   namespace: bgd
 spec:
+  type: NodePort
   ports:
   - port: 8080
     protocol: TCP
     targetPort: 8080
+    nodePort: 30007
   selector:
     app: bgd
 ---
